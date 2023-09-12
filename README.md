@@ -34,3 +34,38 @@ Unit tests/feature tests were not part of the requirements, but from the API doc
 
 The API is deployed to [hng.jameesjohn.com](https://hng.jameesjohn.com).
 
+### Run Locally.
+To run this project locally, you need to have your environment setup for go development with mysql.
+
+Then copy `.env.example` to `.env` and update the variables as required.
+
+In the root folder, run the following to download the required libraries.
+```shell
+go mod download
+```
+
+CD to the cmd directory
+
+```shell
+cd cmd
+ ```
+
+Compile the code
+
+```shell
+go build -o ../server
+```
+
+The compiled binary will be found in the root directory, and can then be run.
+
+```shell
+./server
+```
+
+Once you get the following, you are good to go!
+```shell
+2023/09/12 11:50:31 Config Loaded Successfully
+2023/09/12 11:50:31 Http server running on port 8000
+```
+
+
