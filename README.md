@@ -32,7 +32,7 @@ The API is fully documented, and can be found [here](https://documenter.getpostm
 ### Testing
 Unit tests/feature tests were not part of the requirements, but from the API docs, you will be able to test it on Postman.
 
-The API is deployed to [hng.jameesjohn.com](https://hng.jameesjohn.com).
+The API is deployed to [hng.jameesjohn.com](https://hng.jameesjohn.com/api/persons).
 
 ### Run Locally.
 To run this project locally, you need to have your environment setup for go development with mysql.
